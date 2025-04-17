@@ -4,7 +4,7 @@ A hands-on beginner project to launch an Ubuntu EC2 instance on AWS and connect 
 
 ---
 
-## 🚀 Step 1: Launch EC2 Instance on AWS
+## Step 1: Launch EC2 Instance on AWS
 
 1. **Log in** to the [AWS Console](https://console.aws.amazon.com/).
 2. Navigate to **EC2 > Launch Instance**.
@@ -20,9 +20,9 @@ A hands-on beginner project to launch an Ubuntu EC2 instance on AWS and connect 
 
 ---
 
-## 🔑 Step 2: SSH into EC2 from Windows CMD
+## Step 2: SSH into EC2 from Windows CMD
 
-### ✅ Prerequisites:
+### Prerequisites:
 
 - Move your downloaded `ubuntu-key.pem` file to your working directory:
 
@@ -35,7 +35,7 @@ A hands-on beginner project to launch an Ubuntu EC2 instance on AWS and connect 
   2. Go to **Properties > Security > Edit**.
   3. Select your user, uncheck **Write**, and apply the changes.
 
-### 🔐 Connect via CMD:
+### Connect via CMD:
 
 Open Command Prompt and run:
 
@@ -61,7 +61,7 @@ Type `yes` to continue. You’re now inside your Ubuntu server 🎉
 
 ---
 
-## 🛠️ Basic Commands to Try
+## Basic Commands to Try
 
 Inside your EC2 server:
 
@@ -74,7 +74,7 @@ Then open your EC2 Public IP in a browser — you should see the **Nginx Welcome
 
 ---
 
-## 📘 Notes
+## Notes
 
 - Never share your `.pem` file. Keep it safe.
 - You can **stop**, **start**, or **terminate** your EC2 instance anytime from the AWS Console.
@@ -82,7 +82,7 @@ Then open your EC2 Public IP in a browser — you should see the **Nginx Welcome
 
 ---
 
-## ✅ Project Structure
+## Project Structure
 
 ```
 cloud-labs/
@@ -91,11 +91,11 @@ cloud-labs/
 ├── README.md              # This guide
 ```
 
-> 🚫 **Important**: Add `ubuntu-key.pem` to your `.gitignore` file before pushing to GitHub!
+>  **Important**: Add `ubuntu-key.pem` to your `.gitignore` file before pushing to GitHub!
 
 ---
 
-## ✨ Next Steps
+##  Next Steps
 
 - Install basic packages
 - Try hosting a simple static website
@@ -103,4 +103,4 @@ cloud-labs/
 
 ---
 
-Built with 💻 by Zakariya, learning to become a **Cloud Support Associate**.
+Built by Zakariya, learning to become a **Cloud Support Associate**.
