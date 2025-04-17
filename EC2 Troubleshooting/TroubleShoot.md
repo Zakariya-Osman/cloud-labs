@@ -1,4 +1,7 @@
-# EC2 Troubleshooting: Instance Stopped (Can't Connect)
+**cloud-labs/lab2
+**
+# EC2 Troubleshooting: Instance Stopped (Can't Connect)☁️ cloud-labs/lab2 
+
 
 This guide covers how to simulate and resolve the issue where an EC2 instance is stopped and you’re unable to SSH into it.
 
@@ -44,29 +47,3 @@ You should now be connected.
 
 ---
 
-## Add to Project
-
-**Filename**: `ec2-instance-stopped.md`  
-**Location**: `cloud-labs/docs/` _(or wherever you store troubleshooting guides)_
-
-````md
-# EC2 Issue: Instance Stopped, Can't SSH
-
-**Symptom**: SSH fails with timeout or connection refused.
-
-**Cause**: Instance is in a "stopped" state.
-
-**Fix**:
-
-1. Start the EC2 instance via AWS Console.
-2. Confirm the new public IP.
-3. SSH using:
-   ```bash
-   ssh -i ubuntu-key.pem ubuntu@<new-ip>
-   ```
-````
-
-```
-
----
-```
