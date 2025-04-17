@@ -1,3 +1,4 @@
+☁️ cloud-labs/lab2 
 # EC2 Troubleshooting: Instance Stopped (Can't Connect)
 
 This guide covers how to simulate and resolve the issue where an EC2 instance is stopped and you’re unable to SSH into it.
